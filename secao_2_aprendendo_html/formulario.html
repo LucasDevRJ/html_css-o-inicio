@@ -7,6 +7,25 @@
 		<form action="envio.php" method="POST"> <!--Inseri um formulário. Action para aonde será enviada as informaçõe do formulário e method é a form aque será enviada, se será exibida ou não.-->
 			<input type="text" name="nome"> <!--Caixa de texto para pegar dados-->
 			<br> <!--Pular linha-->
+			<br>
+			<input type="checkbox" name="tem-carro">Eu tenho um carro  <!--Inseri uma caixinha de marcação-->
+			<br>
+			<br>
+			Data de aniversário <input type="date" name="aniversario"> <!--Inseri uma entrada de data-->
+			<br>
+			<br>
+			<!--Inseri caixa de seleção-->
+			<input type="radio" name="sexo" value="masculino">Masculino
+			<input type="radio" name="sexo" value="feminino">Feminino
+			<input type="radio" name="sexo" value="outro">Outro
+			<br>
+			<br>
+			<textarea rows="4" cols="10"></textarea> <!--Caixa de texto para mensagens textuais grandes-->
+			<br>
+			<br>
+			<input type="password" name="senha"> <!--Caixa de senha-->
+			<br>
+			<br>
 			<input type="submit" value="Enviar"> <!--Input tipo botão de envio de informações-->
 		</form>
 	</body>
