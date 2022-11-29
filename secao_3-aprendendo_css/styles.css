@@ -23,3 +23,30 @@ h2 {
 	color: purple;
 	font-size: 40px;
 }
+
+div p {
+	color: red;
+}
+
+.p-dentro-da-div {
+	color: blue;
+}
+
+#p-super-especifico {
+	color: green;
+}
+
+/* Cores */
+
+.nome {
+	color: orange;
+}
+
+.hexa {
+	color: #6a40c4;
+}
+
+.rgba {
+	color: rgba(17, 197, 214, 1);
+	font-size: 40px;
+}
