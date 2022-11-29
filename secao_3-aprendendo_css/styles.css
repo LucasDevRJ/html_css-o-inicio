@@ -50,3 +50,16 @@ div p {
 	color: rgba(17, 197, 214, 1);
 	font-size: 40px;
 }
+
+/* Backgrounds */
+
+.div-background {
+	height: 300px;
+	background-image: url('img/por-do-sol.jpg');
+}
+
+.titulo-background {
+	text-align: center;
+	background-color: #000;
+	color: #FFF;
+}
