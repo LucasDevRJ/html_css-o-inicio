@@ -1,0 +1,63 @@
+body {
+	margin: 0;
+	height: 1000px;
+}
+
+.caixa {
+	width: 200px;
+	height: 200px;
+}
+
+.caixa1 {
+	position: absolute;
+	background-color: yellow;
+	top: 0;
+}
+
+.caixinha1 {
+	position: static;
+	width: 80px;
+	height: 80px;
+	background-color: blue;
+}
+
+.caixa2 {
+	position: absolute;
+	background-color: red;
+	bottom: 0;
+}
+
+.caixinha2 {
+	position: relative;
+	width: 80px;
+	height: 80px;
+	background-color: gray;
+	top: 104px;
+}
+
+.caixa3 {
+	position: absolute;
+	background-color: orange;
+	left: 1166px;
+	top: 0;
+}
+
+.caixa4 {
+	position: absolute;
+	background-color: brown;
+	left: 1166px;
+	bottom: 0;
+}
+
+.caixa5 {
+	position: fixed;
+	background-color: purple;
+	left: 600px;
+}
+
+.caixa6 {
+	position: sticky;
+	background-color: azure;
+	top: 800px;
+	left: 600px;
+}
