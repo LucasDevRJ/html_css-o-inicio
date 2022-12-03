@@ -179,3 +179,31 @@ body { /* removendo a margin padrão do Box Model */
 	color: #000;
 	margin: 0;
 }
+
+/* Positions */
+/* static */
+/* relative */
+/* fixed */
+/* absolute */
+/* sticky */
+
+.div-position {
+	width: 500px;
+	height: 500px;
+	background-color: red;
+	border-bottom: 2px dotted black;
+}
+
+.static {
+	position: static;
+	/* não vai acontecer nada, pois ele é estático ao html
+	top: 300px;
+	left: 60px;*/
+}
+
+.relative {
+	position: relative;
+	background-color: blue;
+	top: 100px;
+	left: 50px;
+}
