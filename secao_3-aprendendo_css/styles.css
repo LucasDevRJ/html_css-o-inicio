@@ -102,3 +102,37 @@ div p {
 .variant {
 	font-variant: small-caps;
 }
+
+/* Box Model */
+
+body { /* removendo a margin padrão do Box Model */
+	margin: 0; 
+}
+
+.boxmodel {
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	/* Geral */
+	/*padding: 20px;*/
+
+	/* Especifíco */
+	/*padding-top: 30px;
+	padding-left: 10px;
+	padding-right: 20px;
+	padding-bottom: 5px;*/
+
+	/* Especifíco Agrupado */
+	padding: 30px 20px 5px 10px;
+
+	/* Especifíco agrupado em 3 medidas - top, rigth-left, bottom */
+	padding: 30px 20px 5px;
+
+	/* Especifíco agrupado em 2 medidas - top-bottom, right-left*/
+	padding: 30px 20px;
+}
+
+.paragrafo-box {
+	color: #000;
+	margin: 0;
+}
