@@ -1,0 +1,18 @@
+body {
+	padding: 100px;
+}
+
+.div-dbz {
+	overflow: auto;
+	margin-bottom: 50px;
+}
+
+.dbz {
+	width: 300px;
+	float: right;
+	margin: 0 30px;
+}
+
+.img-esquerda {
+	float: left;
+}
