@@ -110,9 +110,15 @@ body { /* removendo a margin padrão do Box Model */
 }
 
 .boxmodel {
-	width: 200px;
-	height: 200px;
-	background-color: red;
+	width: 200px; /* largura da div */
+	height: 200px; /* altura da div */
+	background-color: red; /* cor de fundo da div */
+
+	/*
+	 Padding = espaçamento interno
+	 Margin = espaçamento externo
+	/*
+
 	/* Geral */
 	/*padding: 20px;*/
 
@@ -123,41 +129,50 @@ body { /* removendo a margin padrão do Box Model */
 	padding-bottom: 5px;*/
 
 	/* Especifíco Agrupado */
-	padding: 30px 20px 5px 10px;
+	/* padding: 30px 20px 5px 10px; */
 
 	/* Especifíco agrupado em 3 medidas - top, rigth-left, bottom */
-	padding: 30px 20px 5px;
+	/* padding: 30px 20px 5px; */
 
 	/* Especifíco agrupado em 2 medidas - top-bottom, right-left*/
 	padding: 30px 20px;
 
-	border: 3px solid blue;
+	/* Borda do elemento */
+	border: 3px solid black;
 	/*border: 3px dashed blue;*/
 	/*border: 3px dotted blue;*/
 	/*border: 3px double; blue;*/
 
-	border-width: 5px 10px 2px 10px;
+	/* border-width: 5px 10px 2px 10px; */
 
-	border: 3px solid #000;
+	/* border: 3px solid #000; */
 
-	border-left: 5px dotted blue;
+	/* border-left: 5px dotted blue; */
 
-	border-right-style: double;
+	/* border-right-style: double; */
 
 	border-width: 20px 10px;
 
 	border-radius: 15px;
 
 	/* Geral */
-	margin: 50px;
+	/* margin: 50px; */
 
 	/* Específico Agrupado */
-	margin: 5px 10px 10px 7px;
+	/* margin: 5px 10px 10px 7px; */
 
 	/* Especifíco agrupado em 2 medidas - top-bottom, right-left*/
-	margin: 30px 20px;
+	/* margin: 30px 20px; */
 
 	margin: 100px;
+
+	/*display: none; serve para esconder os elementos*/ 
+
+	/* display: inline; deixa os elementos um do lado do outro, mas não pode ter algura e largura definidas */
+
+	display: inline-block; /* deixa um do lado do outro */
+
+	display: block; /* um debaixo do outro */
 }
 
 .paragrafo-box {
