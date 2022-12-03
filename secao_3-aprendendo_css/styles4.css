@@ -1,0 +1,39 @@
+.medida-pixel {
+	height: 300px;
+	width: 300px;
+	background-color: yellow;
+}
+
+.medida-pixe p {
+	font-size: 26px;
+}
+
+.porcentagem-pai {
+	height: 500px;
+	width: 500px;
+}
+
+.medida-porcentagem {
+	width: 70%;
+	height: 70%;
+	background-color: red;
+}
+
+.pai-em {
+	height: 400px;
+	width: 400px;
+	background-color: brown;
+	font-size: 18px;
+}
+
+.medida-em {
+	height: 2em;
+	width: 2em;
+	background-color: purple;
+}
+
+.medida-rem {
+	height: 16rem;
+	width: 19rem;
+	background-color: orange;
+}
