@@ -268,3 +268,35 @@ body { /* removendo a margin padrão do Box Model */
 .clear {
 	clear: both; /* ignora que o elemento ao lado esta flutuando e segue a estrutura padrão do HTML */
 } 
+
+/* Units */
+
+.pixel-1 {
+	background-color: red;
+	width: 100px;
+	height: 100px;
+}
+
+.pixel-2 {
+	background-color: blue;
+	width: 500px;
+	height: 50px;
+}
+
+.pai-porcentagem {
+	height: 500px;
+	width: 500px;
+	background-color: #000;
+}
+
+.porcentagem-1 {
+	width: 50%;
+	height: 50%;
+	background-color: yellow;
+}
+
+.porcentagem-2 {
+	width: 50%;
+	height: 50%;
+	background-color: #000;
+}
