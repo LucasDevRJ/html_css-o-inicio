@@ -202,8 +202,25 @@ body { /* removendo a margin padrão do Box Model */
 }
 
 .relative {
+	/* possui o posicionamento relativo em relação ao pai (body), podendo se posicionar em qualquer parte */
 	position: relative;
 	background-color: blue;
 	top: 100px;
 	left: 50px;
+}
+
+.absolute {
+	/* possui o posicionamento absoluto em relação ao pai (body) */
+	position: absolute;
+	background-color: purple;
+	right: 0;
+	top: 0;
+}
+
+.mini-div {
+	/* vai respeitar o posicionamento da div pai (relative), não saindo de dentro dela */
+	height: 50px;
+	width: 50px;
+	top: 50px;
+	left: 100px;
 }
