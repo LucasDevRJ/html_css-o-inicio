@@ -181,11 +181,11 @@ body { /* removendo a margin padrão do Box Model */
 }
 
 /* Positions */
-/* static */
-/* relative */
-/* fixed */
-/* absolute */
-/* sticky */
+/* static: fica no flow do HTML, não é alterada por top, right, left e bottom*/
+/* relative: flow do HTML, mas é alterada pelo top, right, left e bottom */
+/* fixed: posiciona em qualquer lugar da tela, e é posicionada em relação ao HTML */
+/* absolute: posiciona em qualquer lugar da tela, fica fixa na tela e respeita o elemento antecessor*/
+/* sticky: estar no flow do HTML, porém ao passar o scrool, ela funciona como o fixed */
 
 .div-position {
 	width: 500px;
