@@ -147,6 +147,17 @@ body { /* removendo a margin padrão do Box Model */
 	border-width: 20px 10px;
 
 	border-radius: 15px;
+
+	/* Geral */
+	margin: 50px;
+
+	/* Específico Agrupado */
+	margin: 5px 10px 10px 7px;
+
+	/* Especifíco agrupado em 2 medidas - top-bottom, right-left*/
+	margin: 30px 20px;
+
+	margin: 100px;
 }
 
 .paragrafo-box {
