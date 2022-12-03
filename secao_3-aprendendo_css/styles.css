@@ -224,3 +224,12 @@ body { /* removendo a margin padrão do Box Model */
 	top: 50px;
 	left: 100px;
 }
+
+.fixed {
+	/* é relativa em relação ao pai (body) e a view do html, ficando onde a tela esta, quando posicionada */
+	position: fixed;
+	height: 200px;
+	background-color: yellow;
+	bottom: 0;
+	right: 0;
+}
