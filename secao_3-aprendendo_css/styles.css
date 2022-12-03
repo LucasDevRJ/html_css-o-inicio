@@ -233,3 +233,10 @@ body { /* removendo a margin padrão do Box Model */
 	bottom: 0;
 	right: 0;
 }
+
+.sticky {
+	/* é parecida com a fixed, mas ela só acompanha a view quando passado o mouse por cima dela */
+	position: sticky;
+	background-color: gray;
+	top: 0px;
+}
